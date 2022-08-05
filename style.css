@@ -1,0 +1,59 @@
+body {
+    background-color: #996633;
+}
+
+h1 {
+    color: #e6ccb3;
+    font-style: italic;
+}
+
+#introduction {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#content {
+    margin: 3rem auto;
+    width: 60%;
+}
+
+#content div {
+    padding: 5px;
+}
+
+#title {
+    margin-left: 3rem;
+}
+
+.heading {
+    color: white;
+    background-color: #661a00;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.info {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.info>span {
+    color: #661a00;
+    font-weight: bold;
+}
+
+.Afiyet {
+    color: wheat;
+    font-size: 2.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media (max-width:1100px) {
+    #title {
+        margin-left: 1rem;
+    }
+}
